@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify - Relax Your mind with favourite Musics.</title>
+  <link rel="stylesheet" href="Spotify.css">
+</head>
+<body>
+<!-- deploying the project  -->
+  
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+    
+  <div class="container">
+    <div class="songItemContainer">
+      <h1>All Your Favorite Tunes in One Place,So Tune In And Chill Out.</h1><br><br><br>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">03:25 <i id="1" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+    
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">04:00 <i id="2" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">03:16 <i id="3" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">03:43 <i id="4" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">02:41 <i id="5" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">04:01 <i id="6" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">03:34 <i id="7" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">05:27 <i id="8" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">10:33 <i id="9" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+      <div class="SongItem">
+        <img alt="1">
+        <span class="songName">Let me Love You</span>
+        <span class="songplaylist"><span class="timetamp">06:03 <i id="10" class="fa-sharp songItemPlay fa-regular fa-circle-play"></i></span></span>
+      </div>
+
+    </div>
+    <div class="PlayList"></div>
+    <div class="PlayListBanner"></div>
+  </div>
+  
+  <div class="bottom">
+    <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+    <div class="icons">
+      <!--fontawesome icons-->
+      <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+      <i class="fa-sharp fa-3x fa-regular fa-circle-play" id="masterPlay"></i>
+      <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+
+    </div>
+    <div class="songInfo">
+      <img src="display.gif" alt="gif" width="82px" id="gif"> <span id="masterSongName"> Let me Love you - Justin Beiber</span> 
+    </div>
+  </div>
+  <script src="Spotify.js" defer></script>
+  <script src="https://kit.fontawesome.com/6d8615b0b2.js" crossorigin="anonymous"></script>
+</body>
+</html>
